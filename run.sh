@@ -5,6 +5,5 @@ elif  [[ $1 == disasm ]]
 then
     ndisasm $2
 else
-    find . -type f ! -name "*.*" -delete
-    rm -rf ans_*.*
+    rm -rf ans_*.* *.out
 fi
